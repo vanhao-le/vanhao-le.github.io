@@ -1,0 +1,130 @@
+<!DOCTYPE HTML>
+<html lang="en">
+
+<head>
+	<title>Van Hao LE - Research</title>
+	<meta name="description" content="Van-Hao Le" />
+	<meta name="keywords" content="Van-Hao Le, V.H., Le, VanHao-Le, Van Hao Le, Le Van Hao" />
+	<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+	<link rel="stylesheet" type="text/css" href="css/style.css" title="style" />
+	<script src="js/git-mod-date.js"></script>
+	<script src="js/jquery-git.min.js"></script>
+	<script>
+		$(function () {
+			$("#header").load("header.html");
+            $("#footer").load("footer.html");		
+		});
+	</script>
+</head>
+
+<body onload="ModifiedDate();">
+  <div id="main">
+    <div id="header"></div>
+	
+	<div id="site_content">
+		<!--
+			<div class="sidebar"></div>
+		-->
+		<div id="content">
+			<!-- insert the page content here -->
+			<h1>Research</h1>
+			<p>
+				I am particularly interested in image and video processing, especially video processing with deep learning methods.
+				Hereafter, you will find a summary of the projects that I participated.
+			</p>
+
+			<h4>PVCD: Partial Video Copy Detection (2020-current)</h4>
+			<p>
+				This topic also is my PhD thesis at LIFAT Laboratory, France. In this PhD, we try to develop a method to identify and locate one or more segments of a long testing video have been copied (transformed) from the reference videos dataset.
+			</p>
+
+			<table class="tb_pvcd">
+				<tr>
+					<td><img src="doc/pvcd/ref_a.gif" width="192" alt="Reference video"></td>
+					<td><img src="doc/pvcd/ref_b.gif" width="192" alt="Reference video"></td>
+					<td><img src="doc/pvcd/pos.gif" width="192" alt="Positive video"></td>
+				</tr>
+				<tr>
+					<td colspan="2">Reference video(s)</td>
+					<td style="text-align:center">Copied detection</td>
+				</tr>
+			</table>
+
+			<h4>FAS: Facial anti-spoofing (2019-2020)</h4>
+			<p>
+				This project was fully funded by HDU University. In this project, we try to develop a deep learning model in order to prevent false facial verification by using a photo, video for an authorized person's face in camera streams.
+			</p>
+			<table>
+				<tr>
+					<td><img src="doc/faceanti/fasp.png" width="150" height="100" alt="Print attack"></td>
+					<td><img src="doc/faceanti/fasv.png" width="150" height="100" alt="Replay/video attack"></td>
+					<td>
+						<video width="150" height="100" autoplay controls>
+							<source src="doc/faceanti/fas.mp4" type="video/mp4">
+						</video>
+					</td>
+				</tr>
+				<tr>
+					<td style="text-align:center">Print attack</td>
+					<td style="text-align:center">Replay/video attack</td>
+					<td style="text-align:center">Video demo</td>
+				</tr>
+			</table>
+
+			<h4>FR: Face Recognition (2018-2020)</h4>
+			<p>
+				This project included several deep learning models for face detection, aligment and recognition. This solution also ranked at 5th in the Vietnamese AI competition with 94.5% accurracy. This project was then applied by some Vietnamese companies as a trial-version product.
+			</p>
+			<table>
+				<tr>
+					<td><img src="doc/facerecog/fd.jpg" width="150" height="100" alt="Face detection"></td>
+					<td><img src="doc/facerecog/fr.jpg" width="150" height="100" alt="Face Recognition"></td>
+					<td>
+						<video width="150" height="100" autoplay controls>
+							<source src="doc/facerecog/fr.mp4" type="video/mp4">
+						</video>
+					</td>
+				</tr>
+				<tr>
+					<td style="text-align:center">Face detection</td>
+					<td style="text-align:center">Face Recognition</td>
+					<td style="text-align:center">Video demo</td>
+				</tr>
+			</table>
+
+			<h1>Softwares and Tools</h1>
+			<ul>
+				<li>
+					The STVD-PVCD Dataset:
+					<i>
+						This dataset is devoted to evaluating the performance of partial video copy detection methods in computer vision.
+					</i>
+					<a href="http://mathieu.delalandre.free.fr/projects/stvd/pvcd/index.html">Homepage</a>
+				</li>
+				<li>
+					The STVD-FC Dataset:
+					<i>
+						This dataset is related to the Fact-checking problem and polical video analysis.
+					</i>
+					<a href="http://mathieu.delalandre.free.fr/projects/stvd/fc/index.html">Homepage</a>
+				</li>
+
+				<!--
+			<li>
+				<i> Projet Jeunes Chercheurs GdR ISIS <a href="http://www.gdr-isis.fr/index.php/projets-de-recherche-isis/">&quot;Coop&eacute;ration des chemins minimaux et contours actifs polygonaux pour la d&eacute;tection d�objets&quot;</a> </i> (2010-2012). <strong>Combination of minimal paths and polygonal (parametric) active contours for object detection</strong>. Joint work with <a href="https://bougleux.users.greyc.fr/">S&eacute;bastien BOUGLEUX</a> and <a href="https://www.ceremade.dauphine.fr/~cohen/">Laurent COHEN</a>
+
+			</li>
+			-->
+			</ul>
+
+
+		</div>
+	</div>
+    <div id="content_footer"></div>
+    <div id="footer">
+      
+    </div>
+	
+  </div>
+</body>
+</html>

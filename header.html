@@ -1,0 +1,30 @@
+
+<div id="logo">
+	<div id="logo_text">
+	  <!-- class="logo_colour", allows you to change the colour of the text -->
+	  <h1><a href="index.html">Van Hao<span class="logo_colour">LE</span></a></h1>
+	  <h2>Homepage</h2>
+	</div>
+	</div>
+  <div id="menubar">
+	<ul id="menu">
+	  <!-- put class="selected" in the li tag for the selected page - to highlight which page you're on -->
+	  <li><a href="index.html">Home</a></li>
+	  <li><a href="research.html">Research</a></li>
+	  <li><a href="publics.html">Publications</a></li>
+	  <li><a href="teaching.html">Teaching</a></li>
+	  <li><a href="misc.html">Misc</a></li>
+	</ul>
+</div>
+
+<script>
+$(function(){
+	var iAmHere = window.location.href;
+	var isRoot = iAmHere + "index.html";
+	console.log(isRoot);
+	$('#menu li a').each(function() {
+	  if (this.href === iAmHere || this.href == isRoot) {$(this).closest('li').addClass('selected');}
+	  else{$(this).closest('li').remove('selected');}
+	});	
+});
+</script>
