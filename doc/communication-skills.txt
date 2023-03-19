@@ -1,0 +1,275 @@
+The general strategy:
+
+1. Decide what it is that you want to say.  Order it by importance, logical dependence.
+
+2. Decide who your audience is.  Decide what they already know, what
+   you need to tell them.  There could be some background reading that
+   you did which took you to the main problem in your report.  The
+   main ideas from the background reading must appear in your report,
+   possibly in an appendix, or even in-line in the text.
+
+3. Write the report (or, prepare the transparencies).
+
+4. Read it, have somebody else read it (or, practice the talk).
+
+5. Revise.
+
+6. Repeat all steps as necessary.
+
+-------------------
+
+CONTENT OF THE REPORT/TALK
+
+Statement of the problem.
+
+What you have accomplished, what you have read, what you plan to do.
+
+What is exciting.  What is unknown.
+
+What background material you need to include.
+
+Different parts will apply for seminars, first stage of project,
+final stage of project.  For seminars, it is good if you can write
+more lucidly, or give more examples, details, than the papers you
+read.
+
+
+AUDIENCE: 
+
+The general rule that seems to be gaining currency is that 80% of your
+talk/report should be accessible to other collegues of yours.  The
+rest of it may be intended for a more expert audience (but without
+any specific expertise in your topic) Follow this rule.  For every
+sentence, you should be able to state who your audience is.
+
+
+ORGANIZATION:
+
+Important topics first:  Simply by placing something first, you accord
+it importance.
+
+Very important ideas should get their own chapter.  Less important
+ones a section, still less important ones a subsection and so on.
+Any idea worth its salt must at least get a paragraph.  Usually do not
+put two ideas in a single paragraph.
+
+Give good names to chapters, sections, subsections.
+
+Overview first: The first chapter must be an overview of the report.
+The first section of a chapter should be an overview of the chapter.
+And so on.  Good authors can often even make the first sentence
+contain the gist of the entire paragraph.
+
+Converse of the above: In the first chapter/section/... the reader
+expects an introduction.  So you should do that.  Furthermore, you
+should not say "We begin by giving an introduction" -- the position
+itself conveys this, and so dont say it again.
+
+
+INTRODUCTION
+
+There must be a serious introductory chapter to your report (likewise
+you should spend enough time on the introduction in a talk).
+
+The introduction must contain a good description of the problem, what
+constitutes the input and what are desirable outputs.  While
+discussing this avoid discussing HOW to compute the outputs, but just
+focus on WHAT outputs are desirable/acceptable.  Give examples.
+The problem statement should be clear to every reader, even those who
+arent paying 100% attention.
+
+Give the motivation for solving the problem.  The motivation could be
+a real-life situation, a subgoal in a larger problem -- any of these
+helps the reader.
+
+The introduction should also give some idea as to why the problem is
+hard.  Is the problem NP-complete, for example?  Why do simple
+algorithms not work?
+
+Finally give an overview of the rest of the report.  Even in a talk,
+it is better to give the overview after the introduction.
+
+PREVIOUS WORK:
+
+This may be included in the introduction, but also may be a separate
+chapter.  You may choose to discuss it after you discuss your own work
+-- if convenient -- though this is somewhat unorthodox.
+
+Previous work should include journal and conference papers.  Articles
+from websites may be included, but these must be viewed somewhat
+skeptically, since they are typically not reviewed, and hence may be
+less reliable.
+
+ALGORITHMS:
+
+Discuss what quantities you will compute at an abstract level,
+e.g. say "In step 2 we compute the sets S_i which have the property
+...".  It is better to describe algorithms by stating properly what
+gets computed at each stage -- and then you can even omit how it
+gets computed.  In most cases it is better to describe the precise
+data structures at the very end ("Note that if we represent S_i using
+a priority queue then T_i can be found in nlogn time").
+
+THEOREMS AND PROOFS:
+
+I prefer a top down style.  The main theorem of the chapter/section
+must be stated first.  You may even give a proof immediately: "Follows
+from Lemmas 5.3 and 5.7 which we prove shortly".  Or you may defer the
+proof till the end of the chapter/section.  But please dont expect the
+reader to go through lemmas and theorems without knowing what grand
+result all this is leading upto.
+
+DEFINITIONS AND NOTATION:  
+
+If some quantity is important in your work, it probably deserves to be
+defined explicitly (say using latex \definition).  It probably also
+deserves to get a good symbol.  The converse is also true -- if you
+are giving names and defining symbols for unimportant quantities, you
+are probably doing something wrong!
+
+Placement of definitions: close to the point of use.  DO NOT PUT ALL
+DEFINITIONS AT THE TOP.  This is similar to variable declarations in
+programs.  Truly important definitions (global scope) should be at the
+top -- and the less important, local ones close to the point of use.
+HOWEVER: it should somehow be clear where I should look up a
+definition if I need it somewhere in the middle of your report --
+please dont assume that I will always read your report from the
+beginning and will remember everything.
+
+
+DIFFERENCES BETWEEN TALKS AND REPORTS
+
+Talks can be less formal.  Talks may cover only a subset of the
+material from the report.  In talks you may consider not giving formal
+proofs (which should be present in the report) but instead just
+explain the important cases only.  You may even say, "let us see what
+happens on this example" -- if that gives out the main idea of the
+proof/algorithm.
+
+Talks should also be broken into parts.  You could do this by putting
+in transparencies which just show the title of the next part.  Leave
+this transparency on the screen for 2-3 seconds, perhaps even without
+saying anything.  That will signal the beginning of a new part.
+
+
+A few tips about giving talks:
+--------------------------------
+To calculate how many transparencies (xps) to make, use the following
+thumb rule: the avge time should be about 2-2.5 mins per xp. 
+If you have more than 12 xps for a 20 min talk, among other
+things, you are violating the thumb rule above.
+
+Do not write too much on a xp. 
+Write just the main points to help you in your flow 
+and the people _listening_ to you.
+About 25--30 words/xp are enough according to me. 
+(definitely not >35)
+
+Do not put things on the xp that you don't want people
+to read.  It is unfortunate that people actually do this,
+especially when they xerox pages onto xps. 
+
+Write BIG.  Leave enough space between lines.
+Your xps should be easy on the eyes. And visible from the last bench,
+even if it is only the pigeons (or their legacy) that occupy it.
+
+It is foolish to write a complicated algorithm/proof 
+on one xp (or even worse more than one xp)
+and expect people to read and understand it. 
+
+Remember that if it takes effort to read your xp then 
+there is a good chance that the audience is not listening to you. 
+
+Unlike what your profs do, your intention is not to give good notes.  
+Diagrams/Illustrations are often very nice things to have.
+These should help you put your point across.
+
+Give the main ideas, omit dull details. Remember: the objective
+is to get something across, not to impress the examiner with
+your ability to read the greek alphabet off a transparency.
+
+In fact, there is no need to write full sentences.
+Your talk and the xp should complement each other. If every word
+you utter is already written on the xp: the
+only thing the examiner is sure/doubtful of, is your reading ability.
+
+Your xps should be neat. Use colour pens freely but judiciously. 
+You can also colour code--using different colours for highlighting etc.
+
+DO NOT
+flash a xp and take it away just because you have made it.
+It leaves a very bad impression and is a complete waste of time.
+If you are running out of time, skip xps.
+Your marks are not decided by the number of xps you flash.
+
+You need not present everything written in your report.
+But what you present should be very clear. Examiners are usually
+impressed by what they understand, not by what they do not
+understand.
+
+Talk slowly. It takes time for sentences to register, since
+in most cases, the examiners are also looking at your xps.
+
+Face the audience for most part, unless you have 
+washed ONLY the back-side of your dress.
+Talk to the audience, make eye-contact, please. Do not talk
+to the board, the top-left corner of the room,
+ or even worse to the slide projector. 
+You might faint by staring at a bright light.
+Also, look at everybody in the audience. If you keep staring at
+the examiner only, he/she might faint.
+
+Try not to cover your transparencies and then slowly
+and dramatically reveal startling details.
+In fact, you will not
+get into this mess if you don't have too much
+written on a xp. Overlays are ok though.
+
+And finally, Practice. It may not make you perfect but 
+will definitely improve your presentation.
+It will also improve your timing. You MUST 
+finish in your allotted time. It is ok to finish a couple of
+minutes early: you can see the glow on the examiner/chair's
+face on those rare occasions glow when this happens.
+
+The amount of work you have done may have no
+relation to the amount of time you hog presenting stuff.
+It is extremely irritating if
+the chairperson has told you to stop for the nth time and 
+you are still trying to ghiss in a few words or even 
+worse trying to shout him down. It may not be just lecturing
+that gives some faculty loud voices...
+
+Some people prefer using available S/W to prepare
+slides. SliTeX for instance.
+I prefer to write them. Also I personally prefer to see
+hand written xps unless neatness is an issue.
+There are benefits to slitex: neatness, convenience,
+but it loses part of the human element.
+You choose what you feel comfortable with.
+
+Answering Questions 
+---------------------
+
+When a question is asked, first understand it clearly
+and then answer the question precisely.
+Do not keep saying whatever you know on the subject
+or perhaps on other subjects. 
+Talking about pineapple pakodas when you are asked
+a question on query optimisation is futile. For all
+you know the examiner may be allergic to pineapples.
+Any cover-up of your ignorance is usually obvious.
+If you don't know the answer, say so. If you need
+a few mins to think, ask for time. If you don't 
+understand what is being asked, ask the person to
+repeat the question.
+
+
+Finally just to emphasise..
+Your aim should be to make people in the audience 
+understand what you have done. It is not to impress
+them about the work you have done. 
+So, try and make difficult things easy rather than
+the other way around.
+
+Good Luck.

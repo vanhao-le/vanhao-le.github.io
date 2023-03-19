@@ -205,11 +205,11 @@ ul#menu li a:hover, ul#menu li.selected a, ul#menu li.selected a:hover
 { width: 878px;
   font: normal 100% 'lucida sans unicode', arial, sans-serif;
   height: 33px;
-  padding: 24px 0 5px 0;
+  padding: 15px 0 15px 0;
   text-align: center; 
   background: #29425E url(../img/footer.png) repeat-x;
   color: #FFF;
-  text-transform: uppercase;
+  /*text-transform: uppercase;*/
   letter-spacing: 0.1em;}
 
 #footer a

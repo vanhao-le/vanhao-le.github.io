@@ -1,0 +1,120 @@
+Getting started a seminar
+Abhiram Ranade
+Dept. of CSE, IIT Bombay
+
+Everyone will write reports. Everyone will make presentations.
+
+- Pick a topic.
+- Collect information about the topic.
+- Digest/Organize information collected.
+- Write report.
+- Give talk.
+
+1. What is a Good Seminar on topic X
+Questions that must get answered:
+
+- What is X?
+- Why is X important? What is its place in the world at large/world of Computer Science?
+- What are the main intellectual questions?
+- What are the answers/approaches?
+- Some details regarding the important approaches. Your favourite approaches.
+- What are the unsolved problem?
+
+2. The Right Attitude - I
+You: The expert, the teacher
+Audience: (including the examiners) are learners.
+
+Semimar Presentation differs Oral examination
+Seminar Presentation is equivalent to Teaching
+
+Evaluation of Report differs Evaluation of Exam paper.
+Evaluation of Report is equivalent to Book review.
+
+Know your subject as an expert.
+- Collect enough information about the topic.
+- Digest it well.
+- Present it well.
+
+Learn to be independent!
+
+3. The Right Attitude - II
+You: Storyteller
+Rest of us: Your audience. We expect to:
+- Learn something new.
+- Learn something that arouses our interest.
+- Hear something clever/suprising/intriguing.
+- Learn something useful, e.g., a new tool.
+
+4. Formulate your topic properly
+As you read more papers you should
+- Refine/Broaden your topic.
+- Go deeper with what you like.
+(Consult your advisor!)
+
+Only goal: Should have enough material for telling a good story.
+Good Story: Enough depth, enough breadth.
+
+Q: What is the most difficult problem in all this?
+A: The most difficult problem is X, and here is why it is hard/deep/challenging.
+Q: Why have you looked at just one approach?
+A: Because it is supposed to be the most promising one, and it it very good/clever 
+enough in itself.
+
+
+5. Collecting information
+
+Starting points:
+- Web search.
+- Recent research paper/book on the topic. (Ask your advisor!). Follow the bibliographic
+references mentioned there.
+
+Acceptable Sources of information:
+- Research Papers
+- Handbooks/Surveys/Books
+- Technical reports
+- Websites
+- Manuals
+
+How many papers/books to read?
+At least 2-3 big papers (Ask advisors)
+Enough for you to tell a story.
+
+How to read papers?
+Read over several passes: If you dont understand something in the first reading,
+go past it and finish the rest of the paper. It may become obvious in the second reading.
+
+Start Early!
+Read critically: Even published papers have mistakes, half-truths. Understand which
+are opinions and which are undoubtable truths.
+Identify the real issues.
+Work out examples.
+Think of alternative formulations.
+Understand the terminology.
+
+Additional Reading
+Topics related to yours: Need to have some familiarity.
+General Area: Might need to do additional reading/brushing up.
+
+BUT you must be very familiar with the basics even if the topic is advanced.
+
+6. Report + Presentation
+- Organize by issue, not by papers you read.
+- Use your own words.
+- Be prepared to defend everthing you write.
+
+Value Addition: Why should the reader read your paper and not the original papers?
+- Because you give a single integrated report.
+- Because you compare the different papers.
+- Because you explain the difficult parts of the papers.
+- Because you give worked out examples.
+- Because you wrote (short) programs which test the ideas whose results you present.
+- Any other
+
+Weekly Meeting:
+- Saying your thoughts aloud clarifies them.
+- Guide may steer you away from blind alleys.
+- Might himself have read new papers related to your topic.
+- Indicates your sincerity.
+
+You must take the initiative in arranging the meeting.
+Good Luck.

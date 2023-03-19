@@ -1,0 +1,140 @@
+How to give talks (Seminar Presentation, and others!)
+Abhiram Ranade
+Dept. of CSE, IIT Bombay
+
+Dont Worry if you are Nervous
+Natural in the beginning.
+Natural even later.
+
+Public speaking is not hard if you prepare well:
+Mastery over material.
+Carefully select material to present.
+Learn the art of making transparencies.
+Rehearse many times. With friends. With advisor.
+
+Public speaking skills are very valuable.
+Improve your personality, gain confidence.
+"Worth putting in a lot of effort."
+
+1. Seminar Talk
+
+Audience for the talk: Your classmates, colleagues, etc.
+Talk should induce audience to read report.
+20 minute time limit. Talk is a subset of Report.
+Talk must be self contained. Talk audience may not read report.
+Audience expectation:
+- Understand topic. Understand basic problem.
+- Understand solution approaches.
+- Get surprised, intrigued.
+- Hear something clever.
+
+2. Structure of Talk
+
+Introduction: Real world relevance, Clear statement of problem
+Outline
+Core of the talk:
+- Topic 1, Topic 2, Topic 3, ...
+Concluding remarks. Summary. Open problems.
+
+Possible Structure of Each Topic
+Introduction - Core - Concluding Remarks/Summary
+
+How to Introduce
+
+"Light hearted opening" Establish real-world connection/motivation for the topic.
+- Interesting stories
+- Philosophical remark
+- Example of Problem (pictorial if possible)
+- Puzzle
+
+Problem statement:
+- Description of input and output.
+- What is to be optimized (if anything).
+- Overview of approaches. Obvious approaches, what is wrong with them.
+- Statement of main results.
+- Why is the problem hard.
+
+NOTE: NO MORE THAN 5 MINUTES!
+
+"CORE" of the talk
+"2-3 topics in-depth" better than 10 topics sketchily
+Choose topics that are:
+- Important.
+- Interesting to describe. Contain clever tricks.
+- Visually appealing.
+- Describable within the given time limit.
+
+OMIT unimportant details: "I will only explain the first step of this proof, the other steps are routine and are described in the report".
+"I will only describe the second step of the algorithm ..."
+
+Simplify theorems/proofs: "I will prove a simpler version in the talk;
+the report contains a more general version, whose proof is much more complicated."
+"I will describe an O(NlogN) algorithm in the talk; 
+but it is possible to improve to O(N) using standard techniques- this is described in the report."
+
+Trade-off: Bite what you can chew.
+
+Statements of theorems: May be simplified, but Precision is still necessary.
+Definitions: Simplify if possible, but DO NOT OMIT! Clarify with examples.
+Examples: Most essential! After definitions, after theorems, after problem statements.
+Proof By examples: Acceptable if examples are well chosen. (NOT acceptable in Report)
+Pictures: Worth a thousand words. Maybe simple sketches.
+
+Transparency: The Basic Building Block
+1 transparency = 1 (atomic) idea/topic
+Title of the transparency: Important. Should suggest what the transparency contains.
+Rest: Should contain points, not full sentences. Should be Readable in a glance.
+Final line: May summarize the transparency.
+
+Mechanics of Transparencies
+- Point at the screen. Not at your computer.
+- Standback and Look at the screen. Ensure screen visible.
+- Use overlays: transparency 1 contains problem, overlay contains solution.
+
+How to Add Emphasis
+- Explicitly write/say "XYZ is very important".
+- Font change. Highlight using colours.
+- Put boxes around it.
+- Make "XYZ" be the title of a transparency.
+- PAUSE after describing "XYZ".
+
+Important Transparencies
+- Talk title: Include your name and your suppervisor's name. Your name should not
+be in smaller font than your suppervisor's.
+- Problem Statement/Main Issues: Transparency(ies) stating the main questions to
+be discussed in the talk. Title may be different.
+- Outline: Very sessential. Should come after introduction and statement of problem.
+- Conclusions: What listener should remember from your talk. Include open problems.
+Title(s) may be different.
+
+3. Answering Questions
+- Clarification Questions: "I didnot follow your definition, what if ..."
+Should be answered immediately.
+- Argumentative/Evaluative Questions: "What is your openion of xyz method?".
+Better to defer to the end. Politely say so.
+
+- Should expect questions on Report and Talk.
+- Anticipate possible questions. Prepare few transparencies in advance.
+- Honestly is the best policy. "I donot know xyz, but shall I explain xyz' which is related?"
+- Not enough to say "Author PQR says so". Explain why and whether you believe PQR.
+
+4. Describing Algorithms and Proofs
+Describe overall idea and structure: Try to convey intuition.
+Describe algorithms at a high level: Describe pictorially if possible.
+Consider top down style.
+Explain data structures: Mention invariants. Draw BEFORE and AFTER pictures.
+(*) LaTex has packages for writing algorithms Manages indentation, highlights keyworks.
+
+Credit Where Credit is Due
+Very clearly mention the source of the ideas you discuss.
+If some idea is your own, mention that very explicitly.
+If you constructed an example, say "I will now show an example that I constructed to
+explain the theorem".
+If you found a shorter proof, mention that.
+
+5. Concluding Remarks
+- Practice makes perfect.
+- Oratory (the art or practice of formal speaking in public.) is an art.
+Rules are not absolute.
+- Break rules if you must, but be prepared to say why.
+- Hear good speakers. Copy good speakers. 
