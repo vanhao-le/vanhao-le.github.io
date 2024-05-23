@@ -1,3 +1,31 @@
 THE LAST LECTURE
 -------------------
 Really Achieving Your Childhood Dreams
+
+---POST-DOC-----------------
+
+SUBJECT: Inquiry about the Postdoctoral position in XXX Deep Learning with a focus on Vision-Language Models
+
+
+Dear Prof. Ekta Vats,
+My name is Van-Hao Le, a final-year Ph.D. candidate in the LIFAT group at the University of Tours, France, under the supervision of Prof. Huber Cardot and Prof. Mathieu Delalandre. 
+Previously, I served as a lecturer at Hong Duc University, Vietnam.
+
+I am about to finish my Ph.D. study (no later than the new school year in 09/2024). 
+My research focuses on ‘evaluating performance on 2D CNN-based features for the problem of partial video copy detection’. 
+Currently, I am looking for postdoc opportunities relevant to my skills and interests. 
+
+I have reviewed the requirements outlined in the job posting (https://www.jobb.uu.se/details/?positionId=716388) and noted that you seek candidates with a doctoral degree. 
+However, I would appreciate clarification on whether candidates in their final year of PhD studies are eligible to apply for the position. 
+My research interests and academic background fit quite well with the objectives of your team, and I am confident in my ability to make valuable contributions to your ongoing projects.
+
+I have attached my CV, which provides further details about my academic background, research experience, and publications. 
+I would be grateful for the opportunity to discuss how my skills and research interests align with the requirements of the postdoctoral position.
+
+Thank you for considering my inquiry. I look forward to your response and the possibility of this postdoctoral position.
+
+Warm regards,
+Van-Hao Le
+Homepage: https://vanhao-le.github.io/
+
+https://www.jobb.uu.se/details/?positionId=716388
